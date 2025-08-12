@@ -15,9 +15,9 @@ export default function People() {
       },
       experience: [
         {
-          position: "Associate Professor & Vice Department Chair",
+          position: "Associate Professor",
           institution: "Department of Computer Science and Information Engineering, Providence University",
-          period: "November 2024 - Present"
+          period: "August 2025 - Present"
         },
         {
           position: "Department Chair",
