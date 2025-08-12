@@ -1,0 +1,48 @@
+{
+  "contact": {
+    "title": "Contact Information",
+    "professor": {
+      "title": "Principal Investigator",
+      "email": "Email:",
+      "phone": "Phone:",
+      "office": "Office:",
+      "officeHours": "Office Hours:",
+      "officeHoursTime": "Tuesdays & Thursdays, 2:00-4:00 PM\nOr by appointment"
+    },
+    "lab": {
+      "title": "Laboratory Information",
+      "location": "Lab Location:",
+      "department": "Department:",
+      "institution": "Institution:",
+      "mailingAddress": "Mailing Address:"
+    },
+    "location": {
+      "title": "Location",
+      "directions": "Directions"
+    },
+    "inquiries": {
+      "title": "General Inquiries",
+      "collaboration": {
+        "title": "Research Collaboration",
+        "description": "Interested in collaborating on research projects? Please email Prof. Chu with details about your research interests and potential collaboration opportunities.",
+        "button": "Contact for Collaboration"
+      },
+      "students": {
+        "title": "Prospective Students",
+        "description": "If you're interested in joining our research group as a graduate student, please review our opportunities page and send your CV along with a research statement.",
+        "button": "Student Inquiries"
+      },
+      "media": {
+        "title": "Media & Press",
+        "description": "For media inquiries, press releases, or interview requests, please contact our communications team or Prof. Chu directly.",
+        "button": "Media Contact"
+      }
+    },
+    "emergency": {
+      "title": "Emergency Contacts",
+      "campusSecurity": "Campus Security:",
+      "labSafety": "Lab Safety Officer:",
+      "department": "Department Main Office:"
+    }
+  }
+}

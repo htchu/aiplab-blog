@@ -1,0 +1,287 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #0070f3;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.overview {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+  border-left: 4px solid #0070f3;
+}
+
+.overview h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.overview p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.positions {
+  margin-bottom: 4rem;
+}
+
+.positions h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #0070f3;
+  padding-bottom: 0.5rem;
+}
+
+.positionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.positionCard {
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 2rem;
+  border-left: 4px solid #28a745;
+}
+
+.positionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.positionTitle {
+  color: #333;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.positionMeta {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.positionType,
+.positionStatus {
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.postdoc {
+  background: #e7f3ff;
+  color: #0056b3;
+}
+
+.phd {
+  background: #e8f5e8;
+  color: #155724;
+}
+
+.masters {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.open {
+  background: #d4edda;
+  color: #155724;
+}
+
+.closed {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.section h4 {
+  color: #333;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.requirementsList,
+.benefitsList {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+.requirementsList li,
+.benefitsList li {
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 0.25rem;
+}
+
+.deadline {
+  color: #666;
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.undergraduate {
+  margin-bottom: 4rem;
+}
+
+.undergraduate h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #fd7e14;
+  padding-bottom: 0.5rem;
+}
+
+.undergradGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.undergradCard {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border-left: 3px solid #fd7e14;
+}
+
+.undergradCard h3 {
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.duration {
+  color: #fd7e14;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.undergradCard p {
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.application {
+  margin-bottom: 4rem;
+}
+
+.application h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #6f42c1;
+  padding-bottom: 0.5rem;
+}
+
+.applicationInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.applicationStep {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 3px solid #6f42c1;
+}
+
+.applicationStep h4 {
+  color: #6f42c1;
+  margin: 0 0 0.5rem 0;
+}
+
+.applicationStep p {
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.contact {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.contact a {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .overview {
+    padding: 1.5rem;
+  }
+  
+  .positionCard {
+    padding: 1.5rem;
+  }
+  
+  .positionHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .undergradGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .applicationInfo {
+    grid-template-columns: 1fr;
+  }
+}

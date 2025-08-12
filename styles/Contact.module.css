@@ -1,0 +1,338 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #0070f3;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.primaryContact,
+.labContact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactCard {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 2rem;
+  height: 100%;
+  border-left: 4px solid #0070f3;
+}
+
+.contactCard h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.contactCard h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.contactCard .title {
+  color: #666;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contactItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.contactItem strong {
+  color: #333;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contactItem span,
+.contactItem a {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.contactItem a {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contactItem a:hover {
+  text-decoration: underline;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.socialLink {
+  color: #0070f3;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid #0070f3;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.socialLink:hover {
+  background: #0070f3;
+  color: white;
+}
+
+.mapSection {
+  margin-bottom: 4rem;
+}
+
+.mapSection h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #0070f3;
+  padding-bottom: 0.5rem;
+}
+
+.mapContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.locationImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationImg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mapPlaceholder {
+  background: #f8f9fa;
+  border: 2px dashed #e9ecef;
+  border-radius: 8px;
+  padding: 3rem;
+  text-align: center;
+  color: #666;
+}
+
+.mapPlaceholder p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.directions h3 {
+  color: #333;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.directionsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.directionCard {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 3px solid #28a745;
+}
+
+.directionCard h4 {
+  color: #28a745;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.directionCard p {
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.inquiriesSection {
+  margin-bottom: 4rem;
+}
+
+.inquiriesSection h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #6f42c1;
+  padding-bottom: 0.5rem;
+}
+
+.inquiriesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.inquiryCard {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border-left: 4px solid #6f42c1;
+  display: flex;
+  flex-direction: column;
+}
+
+.inquiryCard h4 {
+  color: #6f42c1;
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+}
+
+.inquiryCard p {
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.contactButton {
+  color: #6f42c1;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  border: 1px solid #6f42c1;
+  border-radius: 4px;
+  text-align: center;
+  transition: all 0.2s;
+  align-self: flex-start;
+}
+
+.contactButton:hover {
+  background: #6f42c1;
+  color: white;
+}
+
+.emergencySection {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 8px;
+  padding: 2rem;
+  border-left: 4px solid #fd7e14;
+}
+
+.emergencySection h3 {
+  color: #856404;
+  margin: 0 0 1rem 0;
+  font-size: 1.3rem;
+}
+
+.emergencyInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.emergencyItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.emergencyItem strong {
+  color: #856404;
+}
+
+.emergencyItem a {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.emergencyItem a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contactGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .contactCard {
+    padding: 1.5rem;
+  }
+  
+  .directionsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .inquiriesGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .emergencyInfo {
+    grid-template-columns: 1fr;
+  }
+  
+  .emergencyItem {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  .socialLinks {
+    justify-content: center;
+  }
+  
+  .mapPlaceholder {
+    padding: 2rem 1rem;
+  }
+  
+  .mapContainer {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

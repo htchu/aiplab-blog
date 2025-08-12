@@ -1,0 +1,284 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #0070f3;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+.section h2 {
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #0070f3;
+  padding-bottom: 0.5rem;
+}
+
+.peopleGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.personCard {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  border-left: 4px solid #0070f3;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.personPhoto {
+  flex-shrink: 0;
+}
+
+.photo {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px solid #0070f3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personInfo {
+  flex: 1;
+}
+
+.personInfo h3 {
+  color: #0070f3;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.4rem;
+}
+
+.personInfo .title {
+  color: #666;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+}
+
+.personInfo .education {
+  color: #555;
+  font-style: italic;
+  margin: 0 0 1rem 0;
+}
+
+.personInfo .research {
+  color: #333;
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+}
+
+.personInfo .email {
+  color: #555;
+  margin: 0;
+}
+
+.personInfo .email a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.personInfo .email a:hover {
+  text-decoration: underline;
+}
+
+.educationList,
+.experienceList {
+  margin: 0.5rem 0 1rem 0;
+  padding-left: 1.5rem;
+  list-style: none;
+}
+
+.educationList li {
+  color: #555;
+  margin-bottom: 0.3rem;
+  position: relative;
+}
+
+.educationList li:before {
+  content: "•";
+  color: #0070f3;
+  position: absolute;
+  left: -1rem;
+}
+
+.experienceItem {
+  margin-bottom: 1rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.experienceItem:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.expPosition {
+  color: #0070f3;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.expInstitution {
+  color: #555;
+  font-style: italic;
+  margin-bottom: 0.2rem;
+}
+
+.expPeriod {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.alumniGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.alumniCard {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.alumniCard h4 {
+  color: #0070f3;
+  margin: 0 0 0.5rem 0;
+}
+
+.alumniCard p {
+  margin: 0 0 0.5rem 0;
+  color: #555;
+}
+
+.thesis {
+  font-style: italic;
+  color: #666 !important;
+}
+
+.collaboratorsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.collaboratorCard {
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 2rem;
+  border-left: 4px solid #17a2b8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.collaboratorInfo h4 {
+  color: #17a2b8;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+}
+
+.collaboratorTitle {
+  color: #666;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.collaboratorInstitution {
+  color: #555;
+  font-style: italic;
+  margin: 0 0 1rem 0;
+  line-height: 1.4;
+}
+
+.collaboratorResearch,
+.collaboratorRoles {
+  margin-bottom: 1rem;
+}
+
+.collaboratorResearch strong,
+.collaboratorRoles strong {
+  color: #333;
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.collaboratorResearch ul,
+.collaboratorRoles ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.collaboratorResearch li,
+.collaboratorRoles li {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 0.25rem;
+}
+
+.collaboratorFocus {
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+  font-size: 0.95rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.collaboratorFocus strong {
+  color: #17a2b8;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .personCard {
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .photo {
+    width: 120px;
+    height: 160px;
+  }
+  
+  .personInfo {
+    text-align: center;
+  }
+  
+  .alumniGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .collaboratorsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .collaboratorCard {
+    padding: 1.5rem;
+  }
+}

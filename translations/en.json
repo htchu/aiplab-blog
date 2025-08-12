@@ -1,0 +1,202 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "close": "Close",
+    "open": "Open",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "search": "Search"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "people": "People",
+    "research": "Research",
+    "publications": "Publications",
+    "news": "News & Events",
+    "contact": "Contact",
+    "alumni": "Alumni"
+  },
+  "home": {
+    "title": "Welcome to AIPLab",
+    "subtitle": "Professor Hsueh-Ting Chu's Research Laboratory",
+    "description": "Department of Computer Science and Information Engineering, Providence University",
+    "research": {
+      "title": "Our Research",
+      "description": "Explore our cutting-edge research projects and discoveries that push the boundaries of knowledge in our field."
+    },
+    "publications": {
+      "title": "Publications",
+      "description": "Access our latest publications, research papers, and contributions to the scientific community."
+    },
+    "team": {
+      "title": "Team Members",
+      "description": "Meet our dedicated team of researchers, graduate students, and collaborators driving innovation forward."
+    },
+    "opportunities": {
+      "title": "Opportunities",
+      "description": "Discover opportunities to join our research team and contribute to groundbreaking scientific work."
+    },
+    "news": {
+      "title": "Latest News",
+      "welcome": {
+        "title": "Welcome to Our New Website",
+        "content": "We're excited to launch our new laboratory website featuring our research, publications, and team information."
+      }
+    }
+  },
+  "about": {
+    "title": "About the Lab",
+    "overview": {
+      "title": "Laboratory Overview",
+      "content1": "Professor Hsueh-Ting Chu's research laboratory is dedicated to advancing scientific knowledge through innovative research methodologies and collaborative approaches. Our lab focuses on cutting-edge research that addresses fundamental questions and practical challenges in our field.",
+      "content2": "We foster an environment of intellectual curiosity, rigorous scientific inquiry, and interdisciplinary collaboration. Our team is committed to producing high-quality research that contributes meaningfully to the scientific community and society at large."
+    },
+    "philosophy": {
+      "title": "Research Philosophy",
+      "intro": "Our research approach is grounded in systematic investigation, innovative thinking, and collaborative problem-solving. We believe in:",
+      "points": [
+        "Rigorous scientific methodology and reproducible research",
+        "Interdisciplinary collaboration and knowledge sharing",
+        "Mentorship and professional development of emerging researchers",
+        "Translation of research findings into practical applications",
+        "Commitment to ethical research practices and social responsibility"
+      ]
+    },
+    "mission": {
+      "title": "Laboratory Mission",
+      "content": "To conduct innovative research that advances scientific understanding, trains the next generation of researchers, and contributes to solving complex challenges facing our society. We strive to create an inclusive and supportive environment where diverse perspectives are valued and intellectual growth is nurtured."
+    },
+    "facilities": {
+      "title": "Laboratory Facilities",
+      "content": "Our laboratory is equipped with state-of-the-art facilities and instrumentation necessary for conducting high-quality research. We maintain modern equipment and continuously upgrade our capabilities to support innovative research projects and provide excellent training opportunities for our team members."
+    }
+  },
+  "people": {
+    "title": "People",
+    "currentMembers": "Current Lab Members",
+    "collaborators": "Collaborators",
+    "collaboratorsDescription": "Our lab maintains active collaborations with researchers from various institutions around the world. These partnerships enable us to tackle complex research questions and leverage diverse expertise."
+  },
+  "alumni": {
+    "title": "Alumni",
+    "description": "Our laboratory has graduated talented researchers who have gone on to make significant contributions in their respective fields. We are proud of their achievements and maintain strong connections with our alumni community.",
+    "totalGraduates": "Total Graduates",
+    "phdGraduates": "PhD Graduates",
+    "mastersGraduates": "Master's Graduates",
+    "yearsSpan": "Years of History",
+    "graduates": "Graduates",
+    "thesis": "Thesis"
+  },
+  "contact": {
+    "title": "Contact Information",
+    "professor": {
+      "title": "Principal Investigator",
+      "email": "Email:",
+      "phone": "Phone:",
+      "office": "Office:",
+      "officeHours": "Office Hours:",
+      "officeHoursTime": "Tuesdays & Thursdays, 2:00-4:00 PM\\nOr by appointment"
+    },
+    "lab": {
+      "title": "Laboratory Information",
+      "location": "Lab Location:",
+      "department": "Department:",
+      "institution": "Institution:",
+      "mailingAddress": "Mailing Address:"
+    }
+  },
+  "research": {
+    "title": "Research",
+    "overview": {
+      "title": "Research Overview",
+      "content": "Our laboratory focuses on applying advanced AI models across diverse domains including computational biology, smart manufacturing, chip design, and FinTech. We are committed to continuously updating our technologies, particularly in the application of Large Language Models (LLM) and Vision-Language Models (VLM), to address complex cross-domain challenges and drive innovative developments."
+    },
+    "areasTitle": "Research Areas",
+    "currentProjects": "Current Projects",
+    "keyTechniques": "Key Techniques",
+    "funding": "Funding:",
+    "areas": [
+      {
+        "title": "AI-driven Computational Biology",
+        "description": "Applying advanced LLM and VLM models for biological data analysis, including RNA-Seq analysis, genome sequencing, and genomic data processing to understand complex biological systems.",
+        "projects": [
+          "LLM-enhanced RNA-Seq de novo assembly and analysis platform",
+          "AI-powered genomic variant detection and annotation",
+          "Deep learning for comparative genomics and evolutionary analysis"
+        ],
+        "techniques": ["Large Language Models (LLM)", "Vision-Language Models (VLM)", "RNA-Seq Analysis", "Genome Assembly", "AI-driven Variant Calling"],
+        "funding": "Funded by NSTC and MOST - Multiple grants"
+      },
+      {
+        "title": "Smart Manufacturing & Industry 4.0",
+        "description": "Utilizing AI models and machine learning techniques to improve manufacturing processes, including quality control, predictive maintenance, and production optimization.",
+        "projects": [
+          "LLM-based manufacturing process optimization",
+          "Computer vision for automated optical inspection",
+          "AI-driven predictive maintenance systems"
+        ],
+        "techniques": ["Large Language Models (LLM)", "Computer Vision", "Predictive Analytics", "Industrial IoT", "Deep Learning"],
+        "funding": "Industry partnerships and government smart manufacturing grants"
+      },
+      {
+        "title": "AI for Chip Design & EDA",
+        "description": "Applying advanced AI technologies to semiconductor design automation, enhancing chip design efficiency and performance optimization.",
+        "projects": [
+          "LLM-assisted chip design automation",
+          "AI-powered electronic design automation (EDA) tools",
+          "Deep learning for circuit optimization"
+        ],
+        "techniques": ["Large Language Models (LLM)", "Machine Learning for EDA", "Circuit Design Optimization", "AI-driven Verification"],
+        "funding": "Semiconductor industry collaborations and research grants"
+      },
+      {
+        "title": "FinTech & Quantitative Trading",
+        "description": "Combining LLM and deep learning technologies to develop intelligent trading systems and financial risk management solutions.",
+        "projects": [
+          "LLM agents for adaptive quantitative trading",
+          "AI-driven financial market analysis",
+          "Deep learning for risk assessment and management"
+        ],
+        "techniques": ["Large Language Models (LLM)", "Multi-Agent Systems", "Financial ML", "Quantitative Analysis", "Risk Modeling"],
+        "funding": "FinTech industry partnerships and financial research grants"
+      }
+    ],
+    "facilities": {
+      "title": "Research Facilities",
+      "equipment": {
+        "title": "Laboratory Equipment",
+        "description": "State-of-the-art instrumentation and equipment for conducting advanced AI and computational research."
+      },
+      "computational": {
+        "title": "Computational Resources",
+        "description": "High-performance computing facilities for data analysis, machine learning model training, and simulation work."
+      },
+      "tools": {
+        "title": "Specialized Tools",
+        "description": "Access to specialized software, databases, and analytical tools necessary for our research domains."
+      }
+    },
+    "collaborations": {
+      "title": "Collaborations",
+      "description": "Our research benefits from active collaborations with leading researchers and institutions worldwide. These partnerships enable us to tackle complex challenges that require diverse expertise and resources.",
+      "academic": {
+        "title": "Academic Partnerships",
+        "description": "Collaborative projects with universities and research institutes globally, including active partnerships with Simon Fraser University (Canada) for bioinformatics and genomics research."
+      },
+      "industry": {
+        "title": "Industry Connections",
+        "description": "Applied research partnerships with industry leaders to translate research into practice."
+      },
+      "international": {
+        "title": "International Networks",
+        "description": "Participation in international research consortiums and scientific networks."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 AIPLab. All rights reserved."
+  }
+}

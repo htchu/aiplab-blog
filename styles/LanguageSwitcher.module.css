@@ -1,0 +1,33 @@
+.languageSwitcher {
+  position: relative;
+}
+
+.languageSelect {
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+  cursor: pointer;
+  min-width: 120px;
+  transition: border-color 0.2s;
+}
+
+.languageSelect:hover {
+  border-color: #0070f3;
+}
+
+.languageSelect:focus {
+  outline: none;
+  border-color: #0070f3;
+  box-shadow: 0 0 0 2px rgba(0, 112, 243, 0.2);
+}
+
+@media (max-width: 768px) {
+  .languageSelect {
+    font-size: 0.8rem;
+    min-width: 100px;
+    padding: 0.4rem;
+  }
+}
